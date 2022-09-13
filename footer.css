@@ -1,0 +1,30 @@
+footer{ 
+    background: var(--text-single);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 5rem;
+    
+}
+
+footer span {
+    color: var(--text-title);
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+footer img {
+    width: 40px;
+    padding-right: 0.5rem;   
+}
+
+@media screen and (min-width: 0) {
+    .footer {
+        font-size: 1.125rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        font-size: 2rem;
+    }
+}

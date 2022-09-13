@@ -1,0 +1,32 @@
+.banner{
+    position: relative;
+}
+
+.banner__imagem{
+    width: 100vw;
+    height: 100%;
+}
+
+.banner__titulo {
+    font-family: var( --font-title);
+    color: var(--text-title);
+    font-size: 5rem;
+    text-shadow: 0 4px 4px #000000bf;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
